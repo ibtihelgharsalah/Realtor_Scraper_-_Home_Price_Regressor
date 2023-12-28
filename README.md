@@ -1,6 +1,6 @@
 # 'Realtor' Scraper and Home Price Predictor
 
-## Context: Python OOP and AI University Cours
+## Context: Python OOP and AI University Course
 This project is developed within the context of the "Python OOP and AI" university course. It aims to showcase proficiency in object-oriented programming (OOP), web scraping, and machine learning modeling and their application in real-world scenarios.
 
 ## Overview
