@@ -31,7 +31,7 @@ The primary goal is to assist users in making decisions related to property inve
 
 ## Project Structure
 ### UML
-![Project UML](Realtor_Scraper_-_Home_Price_Regressor/UML.png)
+![Project UML](UML.png)
 ### Classes and Functions
 
 #### `RealtorScraper`
