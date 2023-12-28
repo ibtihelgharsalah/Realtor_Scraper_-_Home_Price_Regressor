@@ -68,21 +68,21 @@ To run the project:
 
    ```python
    # create an instance of the manager class
-    manager_1= Manager()
-    page_urls1= ['https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6',
-                'https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6/pg-2',
-                'https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6/pg-3',
-                ]
-    ds_file_names1= ["page_1.xlsx", "page_2.xlsx", "page_3.xlsx"]
-    new_data1= pd.DataFrame({
-        'num_beds': [3.0, 4.0, 1.0, 2.0, 3.0, 5.0, 6.0, 1.0],
-        'num_baths': [2.0, 3.0, 2.5, 4.5, 3.5, 1.0, 4.0, 1.5],
-        'sqft': [2000, 2500, 1905, 5000, 3000, 1500, 1200, 3500]})
-    final_ds1= "final_ds1.xlsx"
-    prediction_file1= "prediction_file1.xlsx"
-    new_file1= "new_file1.xlsx"
-    prediction_result1= manager_1.manage_complete_tasks(page_urls1, ds_file_names1, new_data1, final_ds1, prediction_file1, new_file1)
-    prediction_result1
+   manager_1= Manager()
+   page_urls1= ['https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6',
+               'https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6/pg-2',
+               'https://www.realtor.com/realestateandhomes-search/Birmingham_AL/show-newest-listings/sby-6/pg-3',
+               ]
+   ds_file_names1= ["page_1.xlsx", "page_2.xlsx", "page_3.xlsx"]
+   new_data1= pd.DataFrame({
+       'num_beds': [3.0, 4.0, 1.0],
+       'num_baths': [2.0, 3.0, 2.5],
+       'sqft': [2000, 2500, 1905]})
+   final_ds1= "final_ds1.xlsx"
+   prediction_file1= "prediction_file1.xlsx"
+   new_file1= "new_file1.xlsx"
+   prediction_result1= manager_1.manage_complete_tasks(page_urls1, ds_file_names1, new_data1, final_ds1, prediction_file1, new_file1)
+   prediction_result1
 
 
 
